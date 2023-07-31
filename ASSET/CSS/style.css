@@ -1,3 +1,79 @@
 .cards{
     margin-top: 5%;
 }
+.price{
+    margin-top: 10px;
+}
+
+.presentacion{
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    overflow:scroll;
+    scroll-margin: 30px;
+    height: 200px;
+    background-color: #9ebaf123;
+    color: rgb(53, 98, 243);
+    padding: 10%;
+    
+}
+
+.box1{
+    background-color: #0000005b;
+    display:block;
+    width: 300px;
+    margin-left: -20px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.box{
+    background-color: #0000005b;
+    width: 300px;
+    height: 200px;
+    padding: 10PX;
+    margin-left: 5%;
+    display: flexbox;
+    border-radius: 6px;
+}
+
+footer{
+    margin-top: 10%;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+background-color: rgba(0, 0, 0, 0.3); /* Color de la barra de desplazamiento */
+border-radius: 5px; /* Borde redondeado */
+}
+
+body::-webkit-scrollbar-thumb:hover 
+{    
+background-color: rgba(0, 0, 0, 0.5); /* Color de la barra de desplazamiento al pasar el mouse */
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: (0, 0, 0, 0.3) ;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover 
+{    
+background-color: rgba(0, 0, 0, 0.5); /* Color de la barra de desplazamiento al pasar el mouse */
+}
+
+.form{
+    margin-top: 10px;
+    padding: 5%;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
